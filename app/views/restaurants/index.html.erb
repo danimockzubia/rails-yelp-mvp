@@ -1,0 +1,18 @@
+<body>
+    <div class='card' id="header">
+    <h3>Restaurants<i class="far fa-grin-tongue"></i></h3>
+    </div>
+  <div class="container">
+    <div id="list" class="card">
+      <ul>
+        <% @restaurants.each do |restaurant| %>
+          <li>
+          <%= link_to restaurant.name, restaurant_path(restaurant) %>
+          <p><%= restaurant.category %></p>
+          </li>
+        <% end %>
+      </ul>
+    </div>
+
+  </div>
+</body>
