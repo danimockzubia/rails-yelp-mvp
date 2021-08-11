@@ -11,3 +11,35 @@
 // Your CSS partials
 @import "components/index";
 @import "pages/index";
+
+body {
+  background: rgb(214,211,245);
+  background: linear-gradient(90deg, rgba(214,211,245,1) 0%, rgba(188,241,192,1) 45%, rgba(189,228,237,1) 100%);
+}
+
+li {
+  list-style-type: none;
+}
+
+.form_group {
+  margin: 30px;
+}
+
+.topnav {
+  background-color: white;
+  height: 70px;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  overflow: hidden;
+  text-align: center;
+  justify-content: space-around
+
+}
+
+.card {
+  padding: 10px;
+  margin: 10px;
+
+}
